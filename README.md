@@ -1,1 +1,1 @@
-# Grupo_2_WishWave
+# Grupo_2_WishTech
