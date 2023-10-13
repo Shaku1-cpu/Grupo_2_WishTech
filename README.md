@@ -14,7 +14,7 @@ Destacamos esta página por la sección de categorías con iconos en el home.
 https://www.tucompu.com.ar/
 De esta página nos interesa el carrusel de  marcas de los productos  que ofreceremos
 
-Link: https://www.xt-pc.com.ar/
+https://www.xt-pc.com.ar/
 Destacamos esta página por el estilo y la disposición de los componentes de su header.
 
 
@@ -23,7 +23,7 @@ Destacamos esta página por el estilo y la disposición de los componentes de su
 Nuestro sitio web WishTech brindara una línea de productos compuesta por componentes de computadora tales como procesadores, memorias ram, discos rígidos, ssd y externos, monitores, teclados, mouses, auriculares, fuentes de alimentación, motherboards y placas de video.
 
 ¿Quién será nuestra audiencia objetivo?:
-Opción 2) Jóvenes y adultos entre 15 y 40 años, de la provincia de Santiago del Estero, y provincias cercanas.
+Jóvenes y adultos entre 15 y 40 años, de la provincia de Santiago del Estero, y provincias cercanas.
 
 
 ¿Cómo ajustaremos nuestra oferta a ese público? : 
