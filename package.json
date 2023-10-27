@@ -1,0 +1,24 @@
+{
+  "name": "grupo_2_wishwave",
+  "version": "1.0.0",
+  "description": "Proyecto WishTech",
+  "main": "\u001b[D\u001b[D\u001b[D\u001bapp\u001b[C\u001b[C\u001by point: (app.js\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[C\u001b[A\u001b[D\u001b[B\u001b[C\u001b[C\u001b[C",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shaku1-cpu/Grupo_2_WishTech.git"
+  },
+  "author": "Grupo 2 DigitalHouse\u001b[D\u001b[D\u001b[D\u001b[D\u001b[D\u001b[C\u001b[C\u001b[C\u001b[C House\u001b[D\u001b[C\u001b[C\u001b[D",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shaku1-cpu/Grupo_2_WishTech/issues"
+  },
+  "homepage": "https://github.com/Shaku1-cpu/Grupo_2_WishTech#readme",
+  "dependencies": {
+    "express": "^4.18.2",
+    "nodemon": "^3.0.1"
+  }
+}
