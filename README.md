@@ -54,6 +54,10 @@ Nuestro grupo esta compuesto por Andres Garcia, Jennifer Villagra, Exequiel Uma�
 > https://www.xt-pc.com.ar/
 > Destacamos esta página por el estilo y la disposición de los componentes de su header.
 
+> ## Tableros de trabajo
+> - Sprint 1: https://trello.com/b/ZhrX2nny/wishtechsprint1
+> - Sprint 2: https://trello.com/b/3XxBsa8T/wishtechsprint2
+
 
 
 ---
