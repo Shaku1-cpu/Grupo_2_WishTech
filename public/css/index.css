@@ -1,36 +1,34 @@
-.headerDesktop .logo-buscador-usarioCarrito {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-  }
-  
-  .headerDesktop .logo-buscador-usarioCarrito img {
-    margin-right: 10px;
-  }
-  
-  .headerDesktop .buscador {
-    flex-grow: 1; 
-    display: flex;
-    justify-content: center; 
-  }
-  
-  .headerDesktop .usuarioCarrito {
-    display: flex;
-    align-items: center;
-    margin: 20px;
-  }
+/* Paleta de colores
+Negro: #222831;
+Gris: #393E46;
+Verde Agua: #00ADB5;
+Blanco: #EEEEEE;
+*/
 
-  .usuario{
-    display: flex;
-    padding: 20px;
-  }
-  
-  .carrito{
-    display: flex;
-    padding: 20px;
-  }
-  .headerMobile {
-  display: none;
-  }
-  
+/* All */
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Body */
+
+body {
+  background: #EEEEEE;
+  font-family:'Share Tech', sans-serif;
+}
+
+/* Header */
+
+.headerMobile {
+  display: block;
+}
+
+
+
+
+
+
   

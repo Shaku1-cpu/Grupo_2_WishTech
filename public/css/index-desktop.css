@@ -1,0 +1,80 @@
+.headerDesktop .logo-buscador-usarioCarrito {
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+    background: radial-gradient(circle, #393E46, #222831);
+  }
+  
+  #logo-header {
+    width: 100px;
+    object-fit: cover;
+  }
+  
+  .headerDesktop .buscador {
+    width: 35%; 
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .buscador input {
+    width: 80%;
+  }
+  
+  .headerDesktop .usuarioCarrito {
+    width: 25%;
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .headerDesktop .usuarioCarrito a {
+    color: #EEEEEE;
+  }
+
+  .headerDesktop .usuariCarrito a:visited {
+    color: #EEEEEE;
+  }
+
+  .usuario{
+    display: flex;
+    padding: 20px;
+  }
+  
+  .carrito{
+    display: flex;
+    padding: 20px;
+  }
+  
+  .categorias {
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 20px 5px 0 5px;
+    background: radial-gradient(circle, #393E46, #222831);
+    border: 1px outset #00ADB5;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+  }
+
+  .categorias a, li {
+    color: #EEEEEE;
+    text-decoration: none;
+    list-style: none;
+    height: 35px;
+  }
+
+  .categorias a:visited {
+    color: #EEEEEE;
+  }
+
+  .categorias li:hover {
+    border-bottom: 2px solid #00ADB5;
+    transition: .05s;
+  }
+
+  .categorias li:hover a {
+    color: #00ADB5;
+    transition: .3s;
+  }
