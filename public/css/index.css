@@ -1,0 +1,36 @@
+.headerDesktop .logo-buscador-usarioCarrito {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  
+  .headerDesktop .logo-buscador-usarioCarrito img {
+    margin-right: 10px;
+  }
+  
+  .headerDesktop .buscador {
+    flex-grow: 1; 
+    display: flex;
+    justify-content: center; 
+  }
+  
+  .headerDesktop .usuarioCarrito {
+    display: flex;
+    align-items: center;
+    margin: 20px;
+  }
+
+  .usuario{
+    display: flex;
+    padding: 20px;
+  }
+  
+  .carrito{
+    display: flex;
+    padding: 20px;
+  }
+  .headerMobile {
+  display: none;
+  }
+  
+  
