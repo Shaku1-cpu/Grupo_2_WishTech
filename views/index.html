@@ -14,10 +14,12 @@
 </head>
 <body>
     <header>
-        <div class="headerMobile">
-            <nav class="logo-buscador-usarioCarrito">
-                <i class="fa-solid fa-bars"></i>
-                <div class="menuHamburguesa">
+        <div class="header-mobile">
+            <nav class="logo-buscador-usuario-carrito">
+                <div class="menu-icono">
+                    <i class="fa-solid fa-bars fa-2xl"></i>
+                </div>
+                <div class="menu-hamburguesa">
                     <ul>
                         <li><a href="">Iniciar sesion</a></li>
                         <li><a href="">Registrate</a></li>
@@ -36,29 +38,29 @@
                         </ul>
                     </nav>
                     <hr>
-                    <ul class="sobreNosotros-contactanos">
+                    <ul class="sobre-nosotros-contactanos">
                         <li><a href="">Sobre Nosotros</a></li>
                         <li><a href="">Contactanos</a></li>
                     </ul>
                 </div>
-                <img src="/Grupo_2_WishWave/public/img/wishtech.jpg" alt="Logo WishTech">
+                <img id="logo-header" src="/img/Logo WishTech.png" alt="Logo WishTech">
                 <div class="buscador">
-                    <button><i class="fa-brands fa-searchengin"></i></button>
-                    <div class="ventanaEmergente">
+                    <button id="boton-lupa"><i class="fa-solid fa-magnifying-glass fa-2xl"></i></button>
+                    <div class="ventana-busqueda">
                         <input type="text">
-                        <button><i class="fa-brands fa-searchengin"></i></button>
+                        <button id="boton-lupa-ventana"><i class="fa-brands fa-searchengin"></i></button>
                     </div>
                 </div>                                           
             </nav>
         </div>
-        <div class="headerDesktop">
-            <div class="logo-buscador-usarioCarrito">
-                <img src="/img/wishtech.jpg" alt="Logo WishTech" id="logo-header">
+        <div class="header-desktop">
+            <div class="logo-buscador-usario-carrito">
+                <img id="logo-header-D" src="/img/wishtech.jpg" alt="Logo WishTech">
                 <div class="buscador">
                     <input type="text">
                     <button><i class="fa-brands fa-searchengin"></i></button>
                 </div>
-                <div class="usuarioCarrito">
+                <div class="usuario-carrito">
                     <div class="usuario">
                         <a href=""><i class="fa-solid fa-user"></i>Iniciar Sesion</a>
                     </div>
@@ -83,212 +85,197 @@
        
     </header>
     <main>
-        <div class="carrusel">
-
+        <div class="carrusel-container">
+            <h2 id="titulo-carrusel">¡Ofertas!</h2>
+            <div class="carrusel">
+                <ul>
+                    <li>
+                        <div class="li-container">
+                            <img src="/img/oferta/Ryzen 7.png" alt="Ryzen 7">
+                        <div class="producto-precio-carrusel">
+                            <h4>Ryzen 7 5700X</h4>
+                            <p>$295.900</p>
+                        </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-container">
+                            <img src="/img/oferta/RTX 3060.png" alt="Nvidia RTX 3060">
+                        <div class="producto-precio-carrusel">
+                            <h4>Nvidia RTX 3060</h4>
+                            <p>$517.180</p>
+                        </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-container">
+                            <img src="/img/oferta/M.2 Crucial.png" alt="M.2 Crucial">
+                        <div class="producto-precio-carrusel">
+                            <h4>SSD M.2 500GB</h4>
+                            <p>$39.800</p>
+                        </div>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="li-container">
+                            <img src="/img/oferta/Intel i5.png" alt="Intel core i5">
+                            <div class="producto-precio-carrusel">
+                                <h4>Intel Core i5 11400F</h4>
+                                <p>$172.000</p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
         </div>
-        <aside>
+        <aside class="aside-filtros">
             <form class="filtros-productos" action="" method="GET">
-                <div class="">
+                <div class="prod-procesadores">
                     <h4>Procesadores</h4>
                     <div>
                         <label for="amd">AMD</label>
-                        <input type="radio" name="procesadores" id="cpu-amd">
+                        <input  id="cpu-amd" type="radio" name="procesadores">
                     </div>
                     <div>
                         <label for="intel">Intel</label>
-                        <input type="radio" name="procesadores" id="cpu-intel">
+                        <input id="cpu-intel" type="radio" name="procesadores">
                     </div>
                 </div>
-                <div class="">
+                <div class="prod-placas-madre">
                     <h4>Placas Madres</h4>
                     <div>
                         <label for="mother-amd">AMD</label>
-                        <input type="radio" name="placas-madre" id="mother-amd">
+                        <input id="mother-amd" type="radio" name="placas-madre">
                     </div>
                     <div>
                         <label for="mother-amd">Intel</label>
-                        <input type="radio" name="placas-madre" id="mother-intel">
+                        <input id="mother-intel" type="radio" name="placas-madre">
                     </div>
                 </div>
-                <div class="">
+                <div class="prod-memorias-ram">
                     <h4>Memorias Ram</h4>
                     <div>
                         <label for="ram">Memorias</label>
-                        <input type="radio" name="memorias-ram" id="ram">
+                        <input id="ram" type="radio" name="memorias-ram">
                     </div>
                     <div>
                         <label for="ram-notebook">Memorias Notebook</label>
-                        <input type="radio" name="memorias-ram" id="ram-notebook">
+                        <input id="ram-notebook" type="radio" name="memorias-ram">
                     </div>
                 </div>
-                <div class="">
+                <div class="prod-almacenamiento">
                     <h4>Almacenamiento</h4>
                     <div>
                         <label for="hdd">HDD</label>
-                        <input type="radio" name="almacenamiento" id="hdd">
+                        <input id="hdd" type="radio" name="almacenamiento">
                     </div>
                     <div>
                         <label for="ssd">SSD</label>
-                        <input type="radio" name="almacenamiento" id="ssd">
+                        <input id="ssd" type="radio" name="almacenamiento">
                     </div>
                     <div>
                         <label for="externo">Externo</label>
-                        <input type="radio" name="almacenamiento" id="externo">
+                        <input id="externo" type="radio" name="almacenamiento">
                     </div>
                 </div>
-                <div class="">
+                <div class="prod-fuentes">
                     <h4>Fuentes</h4>
                     <div>
                         <label for="f-cert">Certificadas</label>
-                        <input type="radio" name="fuentes-alimentacion" id="f-cert">
+                        <input id="f-cert" type="radio" name="fuentes-alimentacion">
                     </div>
                     <div>
                         <label for="f-no-cert">No Certificadas</label>
-                        <input type="radio" name="fuentes-alimentacion" id="f-no-cert">
+                        <input id="f-no-cert" type="radio" name="fuentes-alimentacion">
                     </div>
                 </div>
-                <div class="">
+                <div class="prod-monitores">
                     <h4>Monitores</h4>
                     <div>
                         <label for="m-samsung">Samsung</label>
-                        <input type="radio" name="Monitores" id="m-samsung">
+                        <input id="m-samsung" type="radio" name="monitores">
                     </div>
                     <div>
                         <label for="m-lg">LG</label>
-                        <input type="radio" name="Monitores" id="m-lg">
+                        <input id="m-lg" type="radio" name="monitores">
                     </div>
                     <div>
                         <label for="m-asus">ASUS</label>
-                        <input type="radio" name="Monitores" id="m-asus">
+                        <input id="m-asus" type="radio" name="monitores">
                     </div>
                     <div>
                         <label for="m-msi">MSI</label>
-                        <input type="radio" name="Monitores" id="m-msi">
+                        <input id="m-msi" type="radio" name="monitores">
                     </div>
                     <div>
                         <label for="m-philips">Philips</label>
-                        <input type="radio" name="Monitores" id="m-philips">
+                        <input id="m-philips" type="radio" name="monitores">
                     </div>
                 </div>
-                <div class="">
+                <div class="prod-perifericos">
                     <h4>Perifericos</h4>
                     <div>
                         <label for="mouse">Mouse</label>
-                        <input type="radio" name="perifericos" id="mouse">
+                        <input id="mouse" type="radio" name="perifericos">
                     </div>
                     <div>
                         <label for="teclado">Teclado</label>
-                        <input type="radio" name="perifericos" id="teclado">
+                        <input id="teclado" type="radio" name="perifericos">
                     </div>
                     <div>
                         <label for="auriculares">Auriculares</label>
-                        <input type="radio" name="perifericos" id="auriculares">
+                        <input id="auriculares" type="radio" name="perifericos">
                     </div>
                 </div>
             </form>
         </aside>
-        <section>
+        <section id="productos-container">
+            <h2>ÚLTIMAS NOVEDADES</h2>
             <article class="producto">
-                <img src="" alt="">
+                <img src="/img/oferta/Ryzen 7.png" alt="Ryzen 7">
                 <div>
-                    <h4>Nombre</h4>
-                    <p>Precio</p>
+                    <h4 class="producto-nombre">Ryzen 7 5700X</h4>
+                    <p class="producto-precio">$295.900</p>
                 </div>
             </article>
             <article class="producto">
-                <img src="" alt="">
+                <img src="/img/oferta/Intel i5.png" alt="Intel core i5">
                 <div>
-                    <h4>Nombre</h4>
-                    <p>Precio</p>
+                    <h4 class="producto-nombre">Intel Core i5 11400F</h4>
+                    <p class="producto-precio">$172.000</p>
                 </div>
             </article>
             <article class="producto">
-                <img src="" alt="">
+                <img src="/img/oferta/M.2 Crucial.png" alt="M.2 Crucial">
                 <div>
-                    <h4>Nombre</h4>
-                    <p>Precio</p>
+                    <h4 class="producto-nombre">SSD M.2 500GB</h4>
+                    <p class="producto-precio">$39.800</p>
                 </div>
             </article>
             <article class="producto">
-                <img src="" alt="">
+                <img src="/img/oferta/RTX 3060.png" alt="Nvidia RTX 3060">
                 <div>
-                    <h4>Nombre</h4>
-                    <p>Precio</p>
-                </div>
-            </article>
-            <article class="producto">
-                <img src="" alt="">
-                <div>
-                    <h4>Nombre</h4>
-                    <p>Precio</p>
-                </div>
-            </article>
-            <article class="producto">
-                <img src="" alt="">
-                <div>
-                    <h4>Nombre</h4>
-                    <p>Precio</p>
-                </div>
-            </article>
-            <article class="producto">
-                <img src="" alt="">
-                <div>
-                    <h4>Nombre</h4>
-                    <p>Precio</p>
-                </div>
-            </article>
-            <article class="producto">
-                <img src="" alt="">
-                <div>
-                    <h4>Nombre</h4>
-                    <p>Precio</p>
-                </div>
-            </article>
-            <article class="producto">
-                <img src="" alt="">
-                <div>
-                    <h4>Nombre</h4>
-                    <p>Precio</p>
-                </div>
-            </article>
-            <article class="producto">
-                <img src="" alt="">
-                <div>
-                    <h4>Nombre</h4>
-                    <p>Precio</p>
-                </div>
-            </article>
-            <article class="producto">
-                <img src="" alt="">
-                <div>
-                    <h4>Nombre</h4>
-                    <p>Precio</p>
-                </div>
-            </article>
-            <article class="producto">
-                <img src="" alt="">
-                <div>
-                    <h4>Nombre</h4>
-                    <p>Precio</p>
+                    <h4 class="producto-nombre">Nvidia RTX 3060</h4>
+                    <p class="producto-precio">$517.180</p>
                 </div>
             </article>
         </section>
     </main>
     <footer>
-        <div class="sobre-nosotros">
-            <a href="/sobre-nosotros">Sobre Nosotros</a>
+        <div class="sobre-nosotros-redes">
+            <h3>Nuestras Redes</h3>
+            <div class="redes-links">
+                <a href=""><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-facebook"></i></a>
+                <a href=""><i class="fa-brands fa-linkedin"></i></a>
+                <a href=""><i class="fa-brands fa-github"></i></a>
+            </div>
+            <a id="sobre-nosotros-footer" href="/sobre-nosotros">Sobre Nosotros</a>
         </div>
         <div class="defensa-consumidor">
             <h3>Defensa al consumidor</h3>
             <a href="https://servicios.infoleg.gob.ar/infolegInternet/anexos/0-4999/638/norma.htm" target="_blank">Ley de defensa del consumidor</a>
             <a href="https://www.argentina.gob.ar/produccion/defensadelconsumidor/conoce-tus-derechos" target="_blank">Conocé tus derechos consumidor</a>
-        </div>
-        <div class="redes">
-            <h3>Nuestras Redes</h3>
-            <a href=""><i class="fa-brands fa-instagram"></i></a>
-            <a href=""><i class="fa-brands fa-facebook"></i></a>
-            <a href=""><i class="fa-brands fa-linkedin"></i></a>
-            <a href=""><i class="fa-brands fa-github"></i></a>
         </div>
     </footer>
 
