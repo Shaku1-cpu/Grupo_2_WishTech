@@ -3,6 +3,7 @@ Negro: #222831;
 Gris: #393E46;
 Verde Agua: #00ADB5;
 Blanco: #EEEEEE;
+Rojo-alerta: #FF0000;
 */
 
 
@@ -50,6 +51,7 @@ body {
 
 
 /* HEADER MOBILE */
+
 
 .logo-buscador-usuario-carrito {
   display:flex;
@@ -111,6 +113,10 @@ body {
   z-index: 1;
   margin-right: 20px;
   animation: fade 20s infinite alternate;
+  background: #FF0000;
+  color: #FFFFFF;
+  padding: 5px;
+  border-radius: 3px;
 }
 
 .carrusel {
@@ -137,6 +143,7 @@ body {
   width: 100%;
   list-style: none;
   position: relative;
+  min-height: 170px;
 }
 
 .carrusel img {
@@ -189,9 +196,12 @@ body {
 
 #productos-container h2 {
   text-align: center;
+  border-top: 2px solid;
   border-bottom: 2px solid;
-  margin-top: 50px;
-  margin-bottom: 20px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 80px;
+  margin-bottom: 5px;
   width: 90%;
   color: #444444;
 }
